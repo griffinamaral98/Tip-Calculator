@@ -1,9 +1,9 @@
 import { useState } from "react";
-import Bill from "./Bill";
-import Service from "./Service";
-import Friend from "./Friend";
-import Total from "./Total";
-import Reset from "./Reset";
+import Bill from "./components/Bill";
+import Service from "./components/Service";
+import Friend from "./components/Friend";
+import Total from "./components/Total";
+import Reset from "./components/Reset";
 
 function App() {
   const [total, setTotal] = useState(0);
